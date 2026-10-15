@@ -6,13 +6,14 @@ UniAssist is a full-stack university platform. Students manage class schedules, 
 
 Every number on screen comes from MongoDB through the REST API. There are no hardcoded metrics or frontend data arrays.
 
-## Group members and contributions
+### Group members and contributions
 
+| Member | Role | Contribution |
+| --- | --- | --- |
 | Jude Poline Austria | Project Lead / Backend Developer | Planned the system scope and modules; set up the Express server, MongoDB connection, middleware (logger, error handler, auth) and REST routes; built the business logic for deadline tracking, request status workflow, booking conflict prevention and event capacity; integrated frontend and backend. |
 | Mark Daniel Bernardo | Frontend Developer | Built the React + Vite + TypeScript client: layouts, sidebar and mobile navigation, landing, dashboard, schedule, tasks, requests, appointments, reservations, events and admin pages; set up React Router, the Axios API service and the custom hooks; created React Hook Form + Zod form validation. |
 | Matt Andrew Desuyo | Database Designer / QA Tester | Designed the eight Mongoose models, their relationships, validation rules and indexes; wrote the seed script with demo data; tested the API endpoints and end-to-end workflows (overdue tasks, invalid status transitions, overlapping bookings, full events, 404 and invalid-ID errors) and reported bugs. |
 | Joseph Emmanuel Gonzales | UI/UX Designer / Documentation | Designed the navy/indigo/violet interface, layouts and responsive behavior; checked usability on mobile and desktop; wrote the README, API documentation, setup and MongoDB guide, demo script and screenshots; prepared the final presentation materials. |
-
 
 ## Features
 
